@@ -2,18 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App-main {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +13,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-Btn-prices {
+  margin: 1rem 0;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-Btn-prices:hover {
+  box-shadow: 0 7px 8px -4px rgb(0 0 0 / 30%), 0 12px 17px 2px rgb(0 0 0 / 24%), 0 5px 22px 4px rgb(0 0 0 / 22%);
+}
+
+.App-Btn-prices:active {
+  box-shadow: none;
+}
+
+.Checkbox {
+  display: flex;
+  gap: 0.3rem;
+}
+
+input[type="checkbox"] {
+  margin-top: 0.4rem;
 }
