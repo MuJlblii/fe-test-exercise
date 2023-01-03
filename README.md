@@ -8,7 +8,8 @@ Overview
 The sections below describe the tasks that should be done by a candidate and published as a GitHub repository. The link to this repository should be shared with the manager then.
 The first task is for testing coding skills and it should be done in JavaScript or in any other language that eventually may be run in a browser.
 The 2nd and 3rd tasks are more about creating web applications - it is recommended to do them with React, Vue or another framework while vanilla JavaScript is also possible. The README file should contain instructions on how to build and run the application.
-Price Check
+## Price Check
+#### Check branch `price-checker`
 There is a shop with old-style cash registers. Rather than scanning items and pulling the price from a database, the price of each item is typed in manually. This method sometimes leads to errors. Given a list of items and their correct prices, compare the prices to those entered when each item was sold. Determine the number of errors in selling prices.
 Example
 products = ['eggs', 'milk', 'cheese']
@@ -84,7 +85,8 @@ cheese
 yes
 
 You may use this example and the example in the beginning of the section as test data for your function.
-Price Widget
+## Price Widget
+#### Check branch `price-widget`
 A site owner decided to place a widget on one of the pages of a site to show actual information about prices of assets. Unfortunately, the backend team is too busy with feature requests so they just provided documentation for a new API endpoint that should be used by the widget. It means that the frontend should mock this API endpoint with fake data.
 It would be nice to have an implementation of that widget as a component in React, but Vue or another framework or even vanilla JavaScript are fine as well.
 The project README file should contains instructions on how to build and run the widget.
@@ -129,7 +131,8 @@ By default (on page load) the widget should display the message “No data. Pres
 When the Refresh button is pressed, the widget should request new data from the endpoint and replace the previous message with the response data from the server. In case of failure an error message should be displayed instead.
 When the Auto-Refresh checkbox is selected, the widget should start requesting new data from the endpoint every 3 seconds and replace the previous content of the widget with the response data from the server after each request. In case of failure an error message should be displayed and the widget should continue trying to load fresh data. When the Auto-Refresh checkbox is unselected, the widget should stop requesting new data from the endpoint and leave the previous widget content 
 
-A very simple ToDo app.
+## A very simple ToDo app.
+#### I have created toDo app like Trello in command, you can explorer it by the link https://github.com/MuJlblii/project-management-app/blob/main/README.md
 
 There should be:
 - a main page: a Login form if user not authorised and something like "Hello {{ login }}" when authorised.
