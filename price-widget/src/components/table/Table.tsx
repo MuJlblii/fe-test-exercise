@@ -12,18 +12,14 @@ function Table({ data }: Props) {
     <>
       <table>
         <tbody>
-          {data.length > 0 && (
-            <tr>
-              <td>{data[randomNumber][0].asset}</td>
-              <td>{data[randomNumber][0].price}</td>
-            </tr>
-          )}
-          {data.length > 0 && (
-            <tr>
-              <td>{data[randomNumber][1].asset}</td>
-              <td>{data[randomNumber][1].price}</td>
-            </tr>
-          )}
+          {data[randomNumber].map((el, index) => {
+            return (
+              <tr key={index}>
+                <td>{el.asset}</td>
+                <td>{el.price}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>
