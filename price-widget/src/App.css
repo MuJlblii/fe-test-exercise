@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Btn-prices {
+  margin: 1rem 0;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none
+}
+
+.App-Btn-prices:hover {
+  box-shadow: 0 7px 8px -4px rgb(0 0 0 / 30%), 0 12px 17px 2px rgb(0 0 0 / 24%), 0 5px 22px 4px rgb(0 0 0 / 22%);
+}
+
+.App-Btn-prices:active {
+  box-shadow: none;
+}
+
+.Checkbox {
+  display: flex;
+  gap: 0.3rem;
+}
+
+input[type="checkbox"] {
+  margin-top: 0.4rem;
+}
